@@ -1,0 +1,79 @@
+/* Colors and fonts */
+body{
+	background: #fcf8ec;
+	color: #79a3b1;
+	font-family: 'lora',serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+h1, h2, h3{
+	font-family: 'roboto',sans-serif;
+}
+h1{
+	color: #456268;
+	font-size: 32px;
+	font-weight: 700;
+
+}
+h2{
+	color: #583d72;
+	font-size: 24px;
+	font-weight: 300;
+}
+a{
+	text-decoration: none;
+	font-family: 'roboto',sans-serif;
+	color: #456268;
+	font-weight: 400;
+	font-size: 16px;
+}
+a:hover{
+	color: #583d72;
+
+}
+
+/* Custom designs with classes */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: #456268;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue{
+	background-color: #456268;
+	color: white;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;  
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+}
+#introduction p{
+	margin-bottom: 40px;
+}
+
+
+
+
